@@ -1,3 +1,10 @@
-#landing page{
+body{
+    background-color: black;
+}
+#landing{
+    /* max-width: 100%; */
+    max-height: 50%; 
+    color: white;
+    text-align: center;
     background-image: url("IP3/assets/backgrounds/h_img.jpg");
 }
