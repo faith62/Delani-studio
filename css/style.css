@@ -40,7 +40,7 @@ margin-top: 40vh;
 }
 #whatWeDo{
     background-color: white;
-    height: 50vh;
+    /* height: 50vh; */
 
 }
 .hidden-content{
@@ -68,7 +68,7 @@ margin-top: 40vh;
 } 
 #portfolio h2{
     text-align: center;
-    color: white;
+  
 }
 #contactUs{
     height: 70vh;
@@ -84,6 +84,10 @@ margin-top: 40vh;
     align-items: center;
     text-align: center;
 } */
+#myForm{
+    margin: 10%;
+    margin-left: 20vw;
+}
 #myForm input{
     background-color: transparent;
    
@@ -91,4 +95,8 @@ margin-top: 40vh;
 #myForm textarea{
     background-color: transparent;
     height: 20vh;
+    width: 88vh;
+}
+::placeholder{
+    color: white;
 }
