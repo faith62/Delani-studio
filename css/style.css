@@ -24,8 +24,9 @@ body{
 vertical-align: middle;
 padding-top: 30vh;
 }
-/* #aboutUs{
+#aboutUs{
     height: 50vh;
     background-color: white;
+    text-align: center;
 
-    } */
+    }
