@@ -3,11 +3,7 @@ body{
 }
 #landing{
     height: 100vh;
-    background-image:url("img/h_img.jpg") ;
-    /* background-size: cover; */
-    /* max-width: 100%; */
-    /* max-height: 50%;  */
-    /* margin-top: 30%; */
+   
     
     
     color: white;
@@ -36,27 +32,30 @@ margin-top: 50vh;
 #service{
     text-align: center;
     height: 50vh;
-    background-image: url("img/s_image.jpg");
-    background-color: white;
+    color: white;
 }
 #service h2{
     font-weight: bolder;
+    margin-top: 10%;
 }
 #whatWeDo{
     background-color: white;
 
+}
+.hidden-content{
+    display: none;
 }
 #whatWeDo h2{
     text-align: center;
     font-weight: bolder;
 
 }
-#designIcon{
+ #designIcon{
     align-items: center;
     text-align: center;
     font-weight: bolder;
 }
-#devIcon{
+#devIcon {
     align-items: center;
     text-align: center;
     font-weight: bolder;
@@ -65,4 +64,14 @@ margin-top: 50vh;
     align-items: center;
     text-align: center;
     font-weight: bolder;
+} 
+#portfolio h2{
+    text-align: center;
+    color: white;
+}
+#contactUs{
+    height: 70vh;
+    color: white;
+    text-align: center;
+
 }
