@@ -86,7 +86,7 @@ margin-top: 40vh;
 } */
 #myForm{
     margin: 10%;
-    margin-left: 20vw;
+    /* margin-left: 0vw; */
 }
 #myForm input{
     background-color: transparent;
