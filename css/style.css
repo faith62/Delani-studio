@@ -29,4 +29,10 @@ padding-top: 30vh;
     background-color: white;
     text-align: center;
 
-    }
+}
+#service{
+    text-align: center;
+    height: 50vh;
+    background-image: url("img/s_image.jpg");
+    background-color: white;
+}
