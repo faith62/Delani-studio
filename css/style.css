@@ -30,9 +30,36 @@ padding-top: 30vh;
     text-align: center;
 
 }
+#aboutUs h2{
+    font-weight: bold;
+}
 #service{
     text-align: center;
     height: 50vh;
     background-image: url("img/s_image.jpg");
     background-color: white;
+}
+#service h2{
+    font-weight: bold;
+}
+#whatWeDo{
+    background-color: white;
+
+}
+#whatWeDo h2{
+    text-align: center;
+    font-weight: bold;
+
+}
+#designIcon{
+    align-items: center;
+    text-align: center;
+}
+#devIcon{
+    align-items: center;
+    text-align: center;
+}
+#productIcon{
+    align-items: center;
+    text-align: center;
 }
