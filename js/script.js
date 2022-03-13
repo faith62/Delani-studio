@@ -1,14 +1,14 @@
 $(document).ready(function(){
     
-    $("#design").click(function(){
-        $("#design-content").show(function(){
-          $("#design").hide('fast');
+    $("#design").click(function(){  //icon id
+        $("#design-content").show(function(){ //design content id
+          $("#design").hide('fast'); // icon id
         
         });
     });
-    $("#design-content").click(function(){
-        $("#design").show(function(){
-          $("#design-content").hide('fast');
+    $("#design-content").click(function(){ //design content id
+        $("#design").show(function(){ //icon id
+          $("#design-content").hide('fast'); //design content id
         
         });
     });
