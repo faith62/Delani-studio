@@ -104,3 +104,10 @@ margin-top: 40vh;
     margin-right: -15px;
     margin-left: -15px;
 } */
+.social{
+    align-items: center;
+    text-align: center;
+}
+.social h5{
+    text-align: center;
+}
