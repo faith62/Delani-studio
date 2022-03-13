@@ -75,3 +75,10 @@ margin-top: 50vh;
     text-align: center;
 
 }
+.container-img{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
