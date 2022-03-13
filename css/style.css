@@ -40,6 +40,7 @@ margin-top: 50vh;
 }
 #whatWeDo{
     background-color: white;
+    height: 50vh;
 
 }
 .hidden-content{
@@ -75,10 +76,10 @@ margin-top: 50vh;
     text-align: center;
 
 }
-.container-img{
+/* .container-img{
     display: grid;
     grid-template-columns: repeat(3 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+} */
