@@ -18,7 +18,7 @@ body{
 }
 #mouseClick{
 vertical-align: middle;
-margin-top: 50vh;
+margin-top: 40vh;
 }
 #aboutUs{
     height: 50vh;
@@ -36,7 +36,7 @@ margin-top: 50vh;
 }
 #service h2{
     font-weight: bolder;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 #whatWeDo{
     background-color: white;
@@ -83,3 +83,11 @@ margin-top: 50vh;
     align-items: center;
     text-align: center;
 } */
+#myForm input{
+    background-color: transparent;
+   
+}
+#myForm textarea{
+    background-color: transparent;
+    height: 20vh;
+}

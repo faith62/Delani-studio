@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     $("#design").click(function(){
         $("#design-content").show(function(){
           $("#design").hide('fast');
