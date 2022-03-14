@@ -37,13 +37,12 @@ $(document).ready(function(){
         });
     });
 
-    
-});
-$(document).ready(function(){
-  $("#work1").mouseenter(function(){
-    $(".work-heading").filter("#title-work1").show("slow")
-  }).mouseleave(function(){
-    $("#title-work1").hide("slow")
-  })
 
+    $("#work1").mouseenter(function(){
+      $(".work-heading").filter("#title-work1").show("slow")
+    }).mouseleave(function(){
+      $("#title-work1").hide("slow");
+    });
+
+    
 });
