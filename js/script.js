@@ -92,8 +92,13 @@ $(document).ready(function(){
     $("#buttonSubmit").click(function(){
       let myName= $("input#name").val();
       alert(`${myName} we have received your message.Thank you for reaching out to us`)
-      $("#myForm").clear()
+      $("form").trigger("reset");
     });
+    // $("#buttonReset").click(function(){
+    //   $("form").trigger("reset");
+    //   // $("form").reset();
+    // });
+    
 
     
 });

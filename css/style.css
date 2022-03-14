@@ -38,6 +38,7 @@ margin-top: 40vh;
     font-weight: bolder;
     /* margin-top: 10%; */
 }
+
 #whatWeDo{
     background-color: white;
     /* height: 50vh; */
@@ -109,6 +110,7 @@ margin-top: 40vh;
 }
 #myForm input{
     background-color: transparent;
+    color: white;
    
 }
 #myForm textarea{
@@ -133,4 +135,11 @@ margin-top: 40vh;
 }
 .social h5{
     text-align: center;
+}
+#social-icons{
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+   
 }
