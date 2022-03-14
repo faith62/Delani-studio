@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     
     $("#design").click(function(){  //icon id
@@ -84,6 +85,14 @@ $(document).ready(function(){
       $(".overlay").filter("#title-work8").show("slow")
     }).mouseleave(function(){
       $("#title-work8").hide("slow");
+    });
+
+
+    
+    $("#buttonSubmit").click(function(){
+      let myName= $("input#name").val();
+      alert(`${myName} we have received your message.Thank you for reaching out to us`)
+      $("#myForm").clear()
     });
 
     
