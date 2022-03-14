@@ -70,6 +70,9 @@ margin-top: 40vh;
     text-align: center;
   
 }
+.work-heading{
+    display: none;
+}
 #contactUs{
     height: 70vh;
     color: white;

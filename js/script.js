@@ -40,10 +40,10 @@ $(document).ready(function(){
     
 });
 $(document).ready(function(){
-    $('.text').hover(function () {
-    $(this).animate({opacity:'1'});
-    },
-    function () {
-    $(this).animate({opacity:'0'});
-})
+  $("#work1").mouseenter(function(){
+    $(".work-heading").filter("#title-work1").show("slow")
+  }).mouseleave(function(){
+    $("#title-work1").hide("slow")
+  })
+
 });
